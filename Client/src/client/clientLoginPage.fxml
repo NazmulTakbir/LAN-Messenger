@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.clientLoginPageController">
+   <children>
+      <Label text="MESSENGER">
+         <font>
+            <Font name="Forte" size="100.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="50.0" top="20.0" />
+         </VBox.margin>
+         <textFill>
+            <LinearGradient cycleMethod="REPEAT" endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#078ab2" />
+                  <Stop color="WHITE" offset="0.00625" />
+                  <Stop color="#aff3fc" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Separator prefWidth="200.0">
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+         <effect>
+            <Shadow />
+         </effect>
+      </Separator>
+      <Label prefHeight="65.0" prefWidth="500.0" text="Log in to your Account" textFill="#bfbfbf">
+         <font>
+            <Font name="Arial Black" size="38.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="200.0" top="30.0" />
+         </VBox.margin>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </Label>
+      <TextField fx:id="usernameField" maxWidth="300.0" prefWidth="300.0" promptText="Username" style="-fx-background-radius: 30; -fx-background-color: #ddd9d9;">
+         <VBox.margin>
+            <Insets bottom="20.0" left="200.0" top="20.0" />
+         </VBox.margin>
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordField" maxWidth="300.0" prefWidth="300.0" promptText="Password" style="-fx-background-radius: 30; -fx-background-color: #ddd9d9;">
+         <VBox.margin>
+            <Insets bottom="20.0" left="200.0" />
+         </VBox.margin>
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <HBox alignment="CENTER" maxWidth="250.0" prefWidth="250.0">
+         <VBox.margin>
+            <Insets bottom="20.0" left="200.0" />
+         </VBox.margin>
+         <children>
+            <Button fx:id="loginButton" mnemonicParsing="false" onAction="#loginAction" style="-fx-background-radius: 15;" text="Log In">
+               <HBox.margin>
+                  <Insets right="20.0" />
+               </HBox.margin>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="resetButton" mnemonicParsing="false" onAction="#resetAction" style="-fx-background-radius: 15;" text="Reset">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Label fx:id="errorMessage" textFill="#8d1919">
+         <VBox.margin>
+            <Insets bottom="10.0" left="220.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Copperplate Gothic Bold" size="22.0" />
+         </font>
+      </Label>
+      <Separator maxWidth="500.0" prefHeight="0.0" prefWidth="500.0">
+         <VBox.margin>
+            <Insets left="200.0" />
+         </VBox.margin>
+         <effect>
+            <Shadow />
+         </effect>
+      </Separator>
+      <HBox maxWidth="500.0" prefWidth="500.0">
+         <VBox.margin>
+            <Insets left="200.0" top="30.0" />
+         </VBox.margin>
+         <children>
+            <Label text="Create New Account" textFill="#bfbfbf">
+               <font>
+                  <Font name="Arial Black" size="30.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0" />
+               </effect>
+            </Label>
+            <Button fx:id="signupButton" mnemonicParsing="false" onAction="#signupAction" style="-fx-background-radius: 15;" text="Sign Up">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

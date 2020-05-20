@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="SettingsPageBack" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.SettingsPageController">
+   <children>
+      <Label text="Reset Password">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="5.0" top="30.0" />
+         </VBox.margin>
+      </Label>
+      <PasswordField fx:id="currentPassword" maxWidth="250.0" promptText="Current Password" style="-fx-background-radius: 5;">
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin>
+         <effect>
+            <DropShadow />
+         </effect>
+      </PasswordField>
+      <PasswordField fx:id="newPassword" maxWidth="250.0" promptText="New Password" style="-fx-background-radius: 5;">
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin>
+         <effect>
+            <DropShadow />
+         </effect>
+      </PasswordField>
+      <PasswordField fx:id="confirmPassword" maxWidth="250.0" promptText="Confirm New Password" style="-fx-background-radius: 5;">
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin>
+         <effect>
+            <DropShadow />
+         </effect>
+      </PasswordField>
+      <Button fx:id="setPassword" mnemonicParsing="false" onAction="#setPasswordAction" style="-fx-background-radius: 10;" text="Set Password">
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Separator prefWidth="200.0" style="-fx-background-color: #2e0f68; -fx-border-color: #2e0f68;">
+         <VBox.margin>
+            <Insets bottom="10.0" top="10.0" />
+         </VBox.margin>
+      </Separator>
+      <Label text="Set Profile Picture">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="5.0" top="5.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER">
+         <children>
+            <Button fx:id="choosePic" mnemonicParsing="false" onAction="#choosePicAction" style="-fx-background-radius: 10;" text="Choose Pic">
+               <HBox.margin>
+                  <Insets right="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+            <Button fx:id="removePic" mnemonicParsing="false" onAction="#removePicAction" style="-fx-background-radius: 10;" text="Remove Pic">
+               <HBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+         </children>
+      </HBox>
+      <Separator prefWidth="200.0" style="-fx-background-color: #2e0f68; -fx-border-color: #2e0f68;">
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin>
+      </Separator>
+      <Button fx:id="closeButton" mnemonicParsing="false" onAction="#closeButtonAction" style="-fx-background-radius: 10;" text="Close">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

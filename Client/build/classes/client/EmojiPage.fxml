@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.EmojiPageController">
+  <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <ImageView fx:id="Smile1" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pictures/Emojis/Smile1.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ForcedSmile" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+         <image>
+            <Image url="@Pictures/Emojis/ForcedSmile.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Relieved" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+         <image>
+            <Image url="@Pictures/Emojis/Relieved.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Laugh" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+         <image>
+            <Image url="@Pictures/Emojis/Laugh.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Senti" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4">
+         <image>
+            <Image url="@Pictures/Emojis/Senti.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Surprised" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5">
+         <image>
+            <Image url="@Pictures/Emojis/Surprised.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="CantSay" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <image>
+            <Image url="@Pictures/Emojis/CantSay.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Confused" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+         <image>
+            <Image url="@Pictures/Emojis/Confused.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Idk" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+         <image>
+            <Image url="@Pictures/Emojis/Idk.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Surprised2" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
+         <image>
+            <Image url="@Pictures/Emojis/Surprised2.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Annoyed" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <image>
+            <Image url="@Pictures/Emojis/Annoyed.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Thinking" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+         <image>
+            <Image url="@Pictures/Emojis/Thinking.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Surprised3" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+         <image>
+            <Image url="@Pictures/Emojis/Surprised3.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Greedy" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <image>
+            <Image url="@Pictures/Emojis/Greedy.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Mischievous" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+         <image>
+            <Image url="@Pictures/Emojis/Mischievous.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Shocked" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+         <image>
+            <Image url="@Pictures/Emojis/Shocked.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Wink" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <image>
+            <Image url="@Pictures/Emojis/Wink.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Scared" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
+         <image>
+            <Image url="@Pictures/Emojis/Scared.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Impressed" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+         <image>
+            <Image url="@Pictures/Emojis/Impressed.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Swag" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <image>
+            <Image url="@Pictures/Emojis/Swag.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Sleeping" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+         <image>
+            <Image url="@Pictures/Emojis/Sleeping.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Angry" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3">
+         <image>
+            <Image url="@Pictures/Emojis/Angry.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Sad" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="3">
+         <image>
+            <Image url="@Pictures/Emojis/Sad.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Crying" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="3">
+         <image>
+            <Image url="@Pictures/Emojis/Crying.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Pissed" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+         <image>
+            <Image url="@Pictures/Emojis/Pissed.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Frustrated" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+         <image>
+            <Image url="@Pictures/Emojis/Frustrated.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="MindBlown" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
+         <image>
+            <Image url="@Pictures/Emojis/MindBlown.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Shocked2" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
+         <image>
+            <Image url="@Pictures/Emojis/Shocked2.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Danger" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="4">
+         <image>
+            <Image url="@Pictures/Emojis/Danger.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Shit" fitHeight="90.0" fitWidth="90.0" onMouseClicked="#imageAction" onMouseEntered="#hoverEnterAction" onMouseExited="#hoverExitAction" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="4">
+         <image>
+            <Image url="@Pictures/Emojis/Shit.JPG" />
+         </image>
+      </ImageView>
+   </children>
+</GridPane>

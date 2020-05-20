@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="recordBackPage" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.VoiceMessagePage2Controller">
+   <children>
+      <Button fx:id="sendButton" mnemonicParsing="false" onAction="#sendButtonAction" style="-fx-background-radius: 15;" text="Send">
+         <HBox.margin>
+            <Insets right="15.0" />
+         </HBox.margin>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="cancelButton" mnemonicParsing="false" onAction="#cancelButtonAction" style="-fx-background-radius: 15;" text="Cancel">
+         <HBox.margin>
+            <Insets left="15.0" />
+         </HBox.margin>
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</HBox>

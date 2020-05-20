@@ -1,0 +1,30 @@
+#topChatPage
+{
+    -fx-background-image: url('Pictures/Background.jpg');
+    -fx-background-size: 100% 100%;  
+}
+
+#bottomChatPage
+{
+    -fx-background-image: url('Pictures/Background2.png');
+    -fx-background-size: 100% 100%;  
+}
+
+#SettingsPageBack
+{
+    -fx-background-image: url('Pictures/Background2.png');
+    -fx-background-size: 100% 100%;  
+}
+
+#recordBackPage
+{
+    -fx-background-image: url('Pictures/Background2.png');
+    -fx-background-size: 100% 100%;  
+}
+
+#picBackground
+{
+    -fx-background-image: url('Pictures/White.png');
+    -fx-background-size: 100% 100%;  
+}
+
