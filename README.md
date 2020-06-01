@@ -5,3 +5,10 @@
 
 ##### When the app asks for IP address after it is run, enter the IPv4 Address. 
 ##### Command Line -> ipconfig -> IPv4 Address
+
+##### Collaborators :
+
+| Name              | Email                    |
+| ----------------- | ------------------------ |
+| Nazmul Takbir     | nazmultakbir98@gmail.com |
+| Abu Nowshed Sakib | ansakib04@gmail.com      |
