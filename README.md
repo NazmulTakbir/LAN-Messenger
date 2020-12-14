@@ -12,6 +12,12 @@
 * When prompted for IP address, enter the IPv4 Address from:
     * Command Line -> ipconfig -> IPv4 Address
 
+### Preview
+<img src="Sample Pics/Login.JPG" alt="drawing" height="320"/>
+<img src="Sample Pics/ChatPage.JPG" alt="drawing" height="320"/>
+<img src="Sample Pics/Settings.JPG" alt="drawing" height="320"/>
+<img src="Sample Pics/CreateGroup.JPG" alt="drawing" height="320"/>
+
 ### Collaborators :
 
 | Name              | Email                    |
