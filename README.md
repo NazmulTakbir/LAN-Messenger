@@ -15,8 +15,6 @@
 ### Preview
 <img src="Sample Pics/Login.JPG" alt="drawing" height="320"/>
 <img src="Sample Pics/ChatPage.JPG" alt="drawing" height="320"/>
-<img src="Sample Pics/Settings.JPG" alt="drawing" height="320"/>
-<img src="Sample Pics/CreateGroup.JPG" alt="drawing" height="320"/>
 
 ### Collaborators :
 
