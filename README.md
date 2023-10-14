@@ -20,5 +20,5 @@
 
 | Name              | Email                    |
 | ----------------- | ------------------------ |
-| [Nazmul Takbir](https://github.com/NazmulTakbir)     | nazmultakbir98@gmail.com |
+| [Nazmul Takbir](https://github.com/NazmulTakbir)     | takbir.nazmul@gmail.com |
 | [Abu Nowshed Sakib](https://github.com/ansakib) | ansakib04@gmail.com      |
